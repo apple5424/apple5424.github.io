@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>유정</title>
+<meta charset="utf-8">
+<style>
+*{margin: 0; padding: 0;
+font-family:"Nanum gothic" "appleGothic" "Malgun Gothic" "Sans-serif";
+}
+body{
+margin: 0 auto;
+width: 1024px; height: 1200px;
+}
+.page1{
+width: 412px; height: 1050px;
+display: inline-block;
+float: right;
+padding: 60px 60px 60px 40px;
+box-shadow: 1px 1px 5px black;
+}
+.page2{
+width: 412px; height: 1050px;
+display: inline-block;
+float: left;
+padding: 60px 40px 60px 60px;
+box-shadow: 1px 1px 5px black;
+}
+.gray{
+background-color: gray;
+}
+table{
+text-align: center;
+width: 400px;
+margin-bottom: 30px;
+}
+h1{
+text-align: center;
+margin-bottom: 50px;
+}
+p{
+margin-bottom: 30px;
+}
+img.left{
+display: block;
+float: left;
+margin: 15px;
+box-shadow: 1px 1px 5px black;
+}
+img.right{
+float: right;
+margin: 15px;
+box-shadow: 1px 1px 5px black;
+}
+.float{
+float: left;
+}
+.pagenum-132{
+ border-top: 2px solid; dashed#555555; 
+text-align: left;
+display: block;
+}
+.pagenum-133{
+  border-top: 2px solid; dashed#555555;
+  text-align: right;
+display: block;
+}
+ 
+</style>
+</head>
+<body>
+<div class="page2">
+<h1>Chapter 3. Thinking with Eyes</h1>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+ 
+<h2>3.1. The Power of Visual Perception</h2>
+ 
+<img src="http://kaywonsad.appspot.com/s/scene2.png" alt="image1" class="left" width="100">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+ 
+ 
+<table>
+<caption>Figure 1.2014 Sales Reveune</caption>
+<tbody>
+<tr class="gray">
+<th>Jan</th>
+<th>Feb</th>
+<th>Mar</th>
+<th>Apr</th>
+<th>May</th>
+<th>Jul</th>
+</tr>
+<tr>
+<td>1,234</td>
+<td>567</td>
+<td>890</td>
+<td>1,234</td>
+<td>5,678</td>
+<td>9,012</td>
+</tr>
+</tbody>
+</table>
+ 
+<img src="http://kaywonsad.appspot.com/s/scene1.png" alt="image" class="right" width="100">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+ 
+ 
+ 
+<div class="pagenum-132">
+<small>132</small>
+</div>
+</div>
+<div class="page1">
+<p>Lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+ 
+<h2>3.1. The Power of Visual Perception</h2>
+ 
+<img src="http://kaywonsad.appspot.com/s/scene2.png" alt="image1" class="left" width="100">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+ 
+ 
+ 
+<img src="http://kaywonsad.appspot.com/s/scene1.png" alt="image" class="right" width="100">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+ 
+ 
+ 
+ 
+<div class="pagenum-133">
+<small>133</small>
+</div>
+</div>
+</body>
+</html>
