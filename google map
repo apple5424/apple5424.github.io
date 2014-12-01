@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>길찾기어플만들기</title>
+    <style>
+        
+        
+        body{font-family:"Malgum Gothic",sans-serif;}
+      
+      
+              
+        ul{list-style-type: none; margin:0px}
+        .top{background: blue; position: fixed; left: 0; 
+                  top: 0; right: 0; height: 200px;
+                  background-color:rgb(54,106,211);}
+        
+        
+        .top2{background: blue; position: fixed; left: 0px; 
+                   top: 0; right: 0px; height: 152px;
+                   background-color:rgb(70,136,241);}
+                   
+        .Depart{font-size : 13px; color: white; margin: -16px; margin-left: 111px;}
+        
+         .top2 p{font-size : 13px; color: white;
+         }
+         
+      
+      .내용 {margin-top: 210px; padding-left: 56px;
+           font-size : 12px;
+            }
+         
+         .파랑색네모{background-color:rgb(54,106,211); color: white; padding: 3.6px;}
+         .연두네모{background-color:rgb(32,182,35); color: white; padding: 3.6px;}
+         .빨강색네모{background-color:rgb(239,29,27); color: white; padding: 3.6px;}
+      
+         .갈색네모{background-color:rgb(205,74,24); color: white; padding: 3.6px;}
+
+         .박스{margin: 6px; 0px; 6px; 0px; }
+         
+         .계원{margin: 75px; margin-left: 65px; }
+         
+         .신사동{margin-left: 42px;}
+         
+         .검정시간{color: black; font-size : 14px; margin-left: 2px;}
+         
+         li{color: gray; margin: 9px; margin-left:3;}
+       
+         .목록아이콘{padding-left: 3px;}
+         .목록내용{margin-top: -22px; margin-bottom: 23px;
+                 border-bottom:1px solid silver; width: 95%; padding-bottom: 1em;}
+     
+      
+      .아이콘 i{margin:20px 3px 0px 30px;
+              list-style-type: none; float: left;}
+      
+      .오른쪽시간{color:black; float: right; font-size : 15px; margin-top: -25px;
+               margin-right: 0;}
+      
+       .비행기{color:white;}
+      .방향 {color:white; margin-left: -40px;}
+      .회색{color:rgb(169,200,248);
+            margin-left: 3px;}
+      
+      .OPTIONS{float: right; margin-top: 2px; margin-right: px;}
+      
+      .점{margin-left: 3px;}
+      .화살표{color:rgb(169,200,248); float: right; margin-top: -35px;}
+      
+      
+      .점 i{margin-top: 5px}
+      .묶음{margin-top:-139px; margin-left: 76px; color: white;}
+      .조정{color:rgb(169,200,248); margin-left: 76px; margin-top: 36px;}
+      
+      .계원예술대학교{border-bottom:1px solid white; width: 98%; padding-bottom: 1em; margin-left: 43px; }
+      
+      .시간{margin-left: -6px;}
+ @media screen and (max-width: 870px) {
+   body {
+     text-align: left;
+   }
+ }
+    </style>
+    
+</head>
+<body>
+    <div class="top"></div>
+    <div class="top2">
+    
+      <div class="아이콘"><ul>
+      <li class="방향"><i class="fa fa-arrow-left"></i></li>
+      <li class="회색"><i class="fa fa-car"></i></li>
+      <li class="비행기"><i class="fa fa-paper-plane"></i></li>
+      <li class="회색"><i class="fa fa-male"></i></li></ul></div>
+
+     
+      
+    <div class="계원"><p class="계원예술대학교">계원예술대학교</p> <p class="신사동">신사동가로수길</div>
+   
+      
+      <div class="묶음">
+      <i class="fa fa-map-marker"></i><br>
+      <span class="점"><i class="fa fa-ellipsis-v"></i></span><br>
+      <i class="fa fa-map-marker"></i></div>
+        <div class="화살표"><i class="fa fa-arrows-v"></i></div>
+
+      <div class="조정"><i class="fa fa-sliders"></i></div>
+    <p class="Depart">Depart at 4:09 PM</p>
+      <p class="OPTIONS">OPTIONS</p>
+  
+  </div>
+
+    
+    
+    <section class="내용">
+      
+      
+      
+      
+      
+      
+    <ul class="목록아이콘"><li><i class="fa fa-paper-plane"></i></li></ul>
+      
+    <ul class="목록내용"><li class="검정시간">4:09 - 5:35PM</li>
+      <li class="오른쪽시간">1hr 25min</li>
+    
+      <li class="박스">
+      <i class="fa fa-male"></i> ❯ 
+      <i class="fa fa-bus"></i> ❯
+      <span class="파랑색네모">1-1</span> ❯
+      <i class="fa fa-bus"></i> 
+      <span class="파랑색네모">441</span></li>
+     
+      <div class="시간">
+    <li>4:25PM from 계원예술대학교</li>
+        <li>10 min Every 10 min</li></div></ul>
+      
+      
+      
+      
+      
+      <ul class="목록아이콘"><li><i class="fa fa-paper-plane"></i></li></ul>
+      
+    <ul class="목록내용"><li class="검정시간">4:09 - 5:35PM</li>
+      <li class="오른쪽시간">1hr 25min</li>
+    
+      <li class="박스">
+      <i class="fa fa-male"></i> ❯
+      <i class="fa fa-bus"></i> ❯
+      <span class="파랑색네모">1-1</span> ❯
+      <i class="fa fa-bus"></i> 
+        <span class="연두네모">4318</span> ❯
+      <i class="fa fa-bus"></i>
+      <span class="갈색네모">9404</span></li>
+      
+    <div class="시간">
+    <li>4:25PM from 계원예술대학교</li>
+      <li>10 min Every 12 min</li></div></ul> 
+      
+      
+      
+      
+      <ul class="목록아이콘"><li><i class="fa fa-paper-plane"></i></li></ul>
+      
+    <ul class="목록내용"><li class="검정시간">4:09 - 5:35PM</li>
+      <li class="오른쪽시간">1hr 25min</li>
+    
+      <li class="박스">
+      <i class="fa fa-male"></i> ❯ 
+      <i class="fa fa-bus"></i> ❯
+      <span class="파랑색네모">51</span> ❯
+      <i class="fa fa-bus"></i> 
+      <span class="파랑색네모">540</span>
+       ❯
+      <i class="fa fa-bus"></i> 
+      <span class="파랑색네모">148</span></li>
+      
+    <div class="시간">
+    <li>4:22PM from 계원예술대학교</li>
+      <li>10 min Every 12 min</li></div></ul>
+      
+      
+      
+      
+      
+      <ul class="목록아이콘"><li><i class="fa fa-paper-plane"></i></li></ul>
+      
+    <ul class="목록내용"><li class="검정시간">4:09 - 5:35PM</li>
+      <li class="오른쪽시간">1hr 25min</li>
+    
+      <li class="박스">
+      <i class="fa fa-male"></i> ❯ 
+      <i class="fa fa-bus"></i> ❯
+      <span class="파랑색네모">51</span> ❯
+      <i class="fa fa-bus"></i> 
+      <span class="빨강색네모">3030</span> ❯
+      <i class="fa fa-bus"></i> 
+      <span class="파랑색네모">145</span> </li>
+      
+    <div class="시간">
+    <li>4:22PM from 계원예술대학교</li>
+      <li>10 min Every 12 min</li></div></ul>
+
+    </section>
+    
+    
+    
+</body>
+</html>
